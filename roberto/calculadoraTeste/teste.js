@@ -21,7 +21,7 @@ console.assert(multiplicacao(1,-3), "1 x -3 é -3")
 
 console.assert(divisao(2,10) == 0.2, "2 / 10 é 0.2")
 console.assert(divisao(20,2) == 10, "20 / 2 é 10")
-console.assert(divisao(4,0) == "ERRO!", "ERRO! não dividir  por 0")
+console.assert(divisao(4,0) == "ERRO!", "ERRO")
 console.assert(divisao(0,4) == 0, "0 / 4 é 0")
 console.assert(divisao(400,500) == 0.8, "400 / 500 é 0.8")
 console.assert(divisao(500,400) == 1.25, "500 / 400 é 1.25")
@@ -37,7 +37,7 @@ console.assert(potencia(5,3) == 125, "5^3 é 125")
 console.assert(potencia(5,-3) == 0.008, "5^-3 é 0.008")
 console.assert(potencia(-5,3) == -125, "-5^3 é -125")
 console.assert(potencia(-5,-3) == -0.008, "-5^-3 é -0.008")
-console.assert(potencia(10,2) == 50, "10^2 é 50")
+console.assert(potencia(10,2) == 50, "10^2 é 100")
 console.assert(potencia(-5,-2) == 0.04, "-5^-2 é 0.04")
 
 
